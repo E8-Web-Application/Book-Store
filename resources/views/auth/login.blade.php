@@ -11,9 +11,6 @@
         <div class="">
             <div class="relative">
                 <input class="w-full rounded-r-full tw-rounded-l-full placeholder-[#E9855A] text-[#E9855A] border-gray-300
-                        dark:border-[#E9855A]
-                        focus:border-indigo-500 dark:focus:border-indigo-600
-                        focus:ring-indigo-500 dark:focus:ring-indigo-600
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="email"
                        name="email"
@@ -31,9 +28,10 @@
         <div class="mt-8">
             <div class="relative">
                 <input class="w-full rounded-r-full tw-rounded-l-full placeholder-[#E9855A] text-[#E9855A] border-gray-300
-                        dark:border-[#E9855A]
-                        focus:border-indigo-500 dark:focus:border-indigo-600
-                        focus:ring-indigo-500 dark:focus:ring-indigo-600
+                        active:border-[#E9855A]
+                        border-2 border-orange-700
+                        dark:border dark:border-2 dark:border-orange-700
+                        active:border active:border-2 active:border-orange-700
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="password"
                        name="password"
