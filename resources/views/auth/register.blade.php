@@ -5,7 +5,7 @@
         @csrf
 
         <!-- Name -->
-        <div>
+        <div class="mt-4">
             <div class="relative">
                 <input class="w-full rounded-r-full tw-rounded-l-full placeholder-[#E9855A] text-[#E9855A] border-gray-300
                         active:border-[#E9855A]

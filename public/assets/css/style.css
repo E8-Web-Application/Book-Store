@@ -6,6 +6,14 @@
 
 :root {
     --color-primary: #E9855A;
+    --color-footer: #EEDEDE;
+}
+
+.bag-body {
+    background: #e6e6e6;
+    /*background: rgb(246,202,202);*/
+    /*background: rgb(226,198,186);*/
+    /*background: linear-gradient(90deg, rgba(238,186,163,1) 7%, rgba(209,142,113,1) 35%, rgba(217,208,205,1) 89%);*/
 }
 
 .color-hover:hover {

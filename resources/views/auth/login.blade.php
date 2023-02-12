@@ -8,7 +8,7 @@
         @csrf
 
         <!-- Email Address -->
-        <div class="">
+        <div class="mt-4">
             <div class="relative">
                 <input class="w-full rounded-r-full tw-rounded-l-full placeholder-[#E9855A] text-[#E9855A] border-gray-300
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
