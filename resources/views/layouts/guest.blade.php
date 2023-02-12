@@ -10,7 +10,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
-        <link rel="stylesheet" href="{{asset('build/assets/app-5369315b.css')}}">
+        <link rel="stylesheet" href="{{asset('build/assets/app-48c787f8.css')}}">
 
     </head>
     <body class="font-sans text-gray-900 antialiased">
@@ -28,6 +28,5 @@
             </div>
         </div>
     <script src="{{ asset('build/assets/app-1736b1f2.js') }}"> </script>
-    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </body>
 </html>
