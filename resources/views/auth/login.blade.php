@@ -47,13 +47,13 @@
 
         <div class="flex items-center justify-between mt-4">
             <div class="">
-                <a href="{{route('register')}}" class="text-[#E9855A] text-sm hover:text-[#E95A1D] font-bold">
+                <a href="{{route('register')}}" class="text-[#E9855A] text-sm color-hover font-bold">
                     {{ __('Register Account') }}
                 </a>
             </div>
 
             @if (Route::has('password.request'))
-                <a class="underline text-sm text-[#E9855A] hover:text-[#E9855A] rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                <a class="underline text-sm text-[#E9855A] color-hover rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                    href="{{ route('password.request') }}">
                     {{ __('Forgot your password?') }}
                 </a>
@@ -61,21 +61,9 @@
         </div>
 
         <div class="flex items-center">
-            <x-submit-button>
+            <x-submit-button class="bag-hover">
                 {{ __('Login') }}
             </x-submit-button>
         </div>
     </form>
-    @section('scripts')
-        <script>
-            function showPassword() {
-                var x = document.getElementById("password");
-                if (x.type === "password") {
-                    x.type = "text";
-                } else {
-                    x.type = "password";
-                }
-            }
-        </script>
-    @endsection
 </x-guest-layout>

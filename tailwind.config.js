@@ -13,11 +13,13 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'or': '#E9855A',
+            },
         },
     },
 
     plugins: [
-        require('@tailwindcss/forms'),
-        require('flowbite/plugin')
+        require('@tailwindcss/forms')
     ],
 };

@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
+        @yield('styles')
+
     </head>
     <body class="font-sans text-gray-900 antialiased">
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-[#F4F3F3]">
@@ -25,11 +27,32 @@
                 </a>
             </div>
 
-            <div class="w-full sm:max-w-lg drop-shadow-md p-6 mt-6 py-4 overflow-hidden sm:rounded-lg">
+            <div class="w-full sm:max-w-lg shadow-xl p-6 mt-6 py-4 overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>
         </div>
     <script src="{{ asset('assets/js/app.js') }}"> </script>
         @yield('scripts')
+        <script>
+        function showPassword() {
+            var x = document.getElementById("password");
+
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+
+        function showConfirmPassword() {
+            var y = document.getElementById("password_confirmation");
+
+            if (y.type === "password") {
+                y.type = "text";
+            } else {
+                y.type = "password";
+            }
+        }
+    </script>
     </body>
 </html>

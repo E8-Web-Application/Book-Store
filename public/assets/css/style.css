@@ -8,3 +8,9 @@
     --color-primary: #E9855A;
 }
 
+.color-hover:hover {
+    color: #d7560e;
+}
+.bag-hover:hover {
+    background-color: #e67432;
+}
