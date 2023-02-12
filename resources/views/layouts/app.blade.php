@@ -7,7 +7,7 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
-        <link rel="stylesheet" href="{{asset('build/assets/app-48c787f8.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
         @yield('styles')
 
@@ -30,7 +30,7 @@
             </main>
         </div>
 
-        <script src="{{ asset('build/assets/app-1736b1f2.js') }}"> </script>
+        <script src="{{ asset('assets/js/app.js') }}"> </script>
         @yield('scripts')
     </body>
 </html>
