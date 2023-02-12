@@ -7,14 +7,14 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
-
         <link rel="stylesheet" href="{{asset('build/assets/app-48c787f8.css')}}">
-        <script src="{{ asset('build/assets/app-1736b1f2.js') }}"> </script>
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+        @yield('styles')
+
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
-
             <!-- Page Heading -->
             @if (isset($header))
                 <header class="bg-white dark:bg-gray-800 shadow">
@@ -29,5 +29,8 @@
                 {{ $slot }}
             </main>
         </div>
+
+        <script src="{{ asset('build/assets/app-1736b1f2.js') }}"> </script>
+        @yield('scripts')
     </body>
 </html>
