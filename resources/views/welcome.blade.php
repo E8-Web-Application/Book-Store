@@ -1,13 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-             <meta name="viewport"
-                   content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-             <title>Home</title>
-</head>
-<body>
-    <h1>Welcome to Home page:</h1>
-</body>
-</html>
+@extends('layouts.master')
+@section('contents')
+    <div class="w-full flex justify-center items-center"
+         style="height: 100vh; font-size: 64px; font-weight: bolder; color: #E9855A;">
+        <h1 class="text-[#E9855A] text-5xl">Welcome to Book Store Project Group</h1>
+    </div>
+@endsection
