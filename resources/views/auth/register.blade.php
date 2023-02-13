@@ -15,7 +15,7 @@
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="text"
                        name="name"
-                       :value="old('name')"
+                       value="{{old('name')}}"
                        id="name"
                        placeholder="Name"
                        required autocomplete="name">
@@ -30,7 +30,7 @@
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="email"
                        name="email"
-                       :value="old('email')"
+                       value="{{old('email')}}"
                        id="email"
                        placeholder="Email"
                        required autofocus autocomplete="username"
@@ -51,7 +51,7 @@
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="password"
                        name="password"
-                       :value="old('password')"
+                       value="{{old('password')}}"
                        id="password"
                        placeholder="New Password"
                        required autocomplete="new-password">
@@ -72,7 +72,7 @@
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="password"
                        name="password_confirmation"
-                       :value="old('password')"
+                       value="{{old('password_confirmation')}}"
                        id="password_confirmation"
                        placeholder="Confirm Password"
                        required autocomplete="new-password">

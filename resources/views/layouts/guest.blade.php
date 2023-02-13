@@ -33,8 +33,8 @@
         </div>
 
         <script src="{{ asset('assets/js/app.js') }}"> </script>
-            @yield('scripts')
-            <script>
+        @yield('scripts')
+        <script>
             function showPassword() {
                 var x = document.getElementById("password");
 
@@ -44,6 +44,7 @@
                     x.type = "password";
                 }
             }
+
             function showConfirmPassword() {
                 var y = document.getElementById("password_confirmation");
 

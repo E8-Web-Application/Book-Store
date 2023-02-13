@@ -14,7 +14,7 @@
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="email"
                        name="email"
-                       :value="old('email')"
+                       value="{{old('email')}}"
                        id="email"
                        placeholder="Email"
                        required autofocus autocomplete="username"
@@ -35,7 +35,7 @@
                         rounded-md shadow-sm py-3 px-12 bg-transparent flex justify-between items-center"
                        type="password"
                        name="password"
-                       :value="old('password')"
+                       value="{{old('password')}}"
                        id="password"
                        placeholder="Password"
                        required autocomplete="current-password">
